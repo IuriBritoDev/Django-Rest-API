@@ -1,40 +1,40 @@
 # Django-Rest-API
  APIs for school management system built with django and django rest framework
 
-### Requirements
+## Requirements
  Python 3.9.2
 
-### Installation
+## Installation
  pip install -r requirements.txt
 
 ## Migrations
  python manage.py makemigrations
  python manage.py migrate 
 
-### Run roject
+## Run roject
  python manage.py runserver
 
-### Json document example
-# Student
+## Json document example
+### Student
  ```JSON
 {
     "studentName": "Mary",
     "registration": "123"
 },
 ```
-# Academic Year
+### Academic Year
  ```JSON
 {
     "academicYearName": "2023",
 },
 ```
-# Discipline
+### Discipline
  ```JSON
 {
     "disciplineName": "math"
 },
 ```
-# Classroom
+### Classroom
  ```JSON
 {
     "schoolGrade": "1",
